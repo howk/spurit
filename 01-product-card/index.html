@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SpurIT - Тестовое задание 1. HTML и CSS</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+<main>
+
+<div class="catalog-wrapper">
+    <h1 class="catalog-wrapper__heading">Товары недели</h1>
+    <div class="catalog-grid">
+        <div class="catalog-item">
+            <div class="catalog-item__tags">
+                <span class="catalog-item__tag catalog-item__tag--new">Новинка</span>
+                <span class="catalog-item__tag catalog-item__tag--last">Последний</span>
+            </div>
+            <span class="catalog-item__photo-wrapper">
+                <img 
+                    class="catalog-item__photo"
+                    src="http://maxkarpov.ru/spurit/product.jpg"
+                    srcset="http://maxkarpov.ru/spurit/product2x.jpg 2x"
+                    alt="Апельсиновый сок" />
+            </span>   
+            <div class="catalog-item__data">
+                <div class="catalog-item__name">Апельсиновый сок</div>
+                <div class="catalog-item__description">Он придётся по душе, даже если ты слива лиловая, спелая, садовая.</div>
+                <button class="btn">В корзину</button>
+            </div>                             
+        </div>
+        <div class="catalog-item">
+            <div class="catalog-item__tags">
+                <span class="catalog-item__tag catalog-item__tag--new">Новинка</span>
+                <span class="catalog-item__tag catalog-item__tag--last">Последний</span>
+            </div>
+            <span class="catalog-item__photo-wrapper">
+                <img 
+                    class="catalog-item__photo"
+                    src="http://maxkarpov.ru/spurit/product.jpg"
+                    srcset="http://maxkarpov.ru/spurit/product2x.jpg 2x"
+                    alt="Апельсиновый сок" />
+            </span>
+            <div class="catalog-item__data">
+                <div class="catalog-item__name">Апельсиновый сок</div>
+                <div class="catalog-item__description">Он придётся по душе, даже если ты слива лиловая, спелая, садовая. Ну что сказать? Ну что сказать? Устроены так длинные описания.</div>
+                <button class="btn">В корзину</button>
+            </div>
+        </div>
+        <div class="catalog-item">
+            <div class="catalog-item__tags">
+                <span class="catalog-item__tag catalog-item__tag--new">Новинка</span>
+                <span class="catalog-item__tag catalog-item__tag--last">Последний</span>
+            </div>
+            <span class="catalog-item__photo-wrapper">
+                <img 
+                    class="catalog-item__photo"
+                    src="http://maxkarpov.ru/spurit/product.jpg"
+                    srcset="http://maxkarpov.ru/spurit/product2x.jpg 2x"
+                    alt="Апельсиновый сок" />
+            </span> 
+            <div class="catalog-item__data">
+                <div class="catalog-item__name">Апельсиновый сок</div>
+                <div class="catalog-item__description">Он придётся по душе, даже если ты слива лиловая, спелая, садовая.</div>
+                <button class="btn" disabled>Закончилось</button>
+            </div>
+        </div>                
+    </div>    
+</div>
+</main>
+</body>
+</html>
