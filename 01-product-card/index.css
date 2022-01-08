@@ -24,11 +24,10 @@ button {
 	line-height: 72px;
 	text-transform: uppercase;
 	color: #000;
-	margin: 0 0 20px 0;
+	margin: 0 0 40px 0;
 	text-align: center;
 	font-weight: 900;
 }
-
 
 .catalog-grid {
 	display: flex;
@@ -89,7 +88,7 @@ button {
 .catalog-item__tag {
 	border-radius: 8px;
 	color: #2f2f2f;
-	padding: 0 18px;
+	padding: 0 16px;
 	font-size: 16px;
 	line-height: 24px;
 	text-transform: uppercase;
@@ -106,7 +105,7 @@ button {
 }
 
 .catalog-item__data {
-	padding: 24px;
+	padding: 23px 24px 24px 24px;
 	flex-grow: 1;
 	display: flex;
 	flex-direction: column;
@@ -117,16 +116,17 @@ button {
 	line-height: 36px;
 	font-weight: 900;
 	color: #2F2F2F;
+	margin-bottom: 18px;
 }
+
 .catalog-item__description {
 	font-size: 16px;
 	line-height: 24px;
 	font-weight: 400;
 	color: #2F2F2F;
 	flex-grow: 1;
-	margin-bottom: 24px;
+	margin-bottom: 23px;
 }
-
 
 .btn {
 	border: 2px #42940F solid;
@@ -144,15 +144,18 @@ button {
 	font-weight: 900;
 	padding: 10px;
 }
+
 .btn:hover {
 	border-color: #42940F;
 	background-color: #42940F;
 	color: #fff;
 }
+
 .btn:active {
 	border-color: #1F5200;
 	background-color: #1F5200;
 }
+
 .btn:disabled {
 	border-color: #4E4E4E;
 	background-color: #4E4E4E;
