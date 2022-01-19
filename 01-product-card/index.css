@@ -67,6 +67,8 @@ button {
 	border-top-right-radius: 12px;
 	display: block;
 	width: 100%;
+	position: relative;
+	transform: translateZ(0);
 }
 
 .catalog-item__photo {
